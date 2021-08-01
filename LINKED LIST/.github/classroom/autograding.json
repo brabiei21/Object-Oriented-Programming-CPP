@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Compile Main",
+      "setup": "wget https://github.com/vgiljaClasses/SP21_assignment3_ag_tests/archive/refs/heads/main.zip; unzip main.zip; mv -f SP21_Assignment3_ag_tests-main/* ./",
+      "run": "g++ -std=c++11 main.cpp -o main",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Basic Tests",
+      "setup": "",
+      "run": "./main basic",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Random Tests",
+      "setup": "",
+      "run": "./main random",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}

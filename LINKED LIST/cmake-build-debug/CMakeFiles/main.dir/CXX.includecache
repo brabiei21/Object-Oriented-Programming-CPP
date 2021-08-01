@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment3-brabiei21/LinkedList.hpp
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment3-brabiei21/main.cpp
+iostream
+-
+LinkedList.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment3-brabiei21/LinkedList.hpp
+list
+-
+cstdlib
+-
+ctime
+-
+algorithm
+-
+string
+-
+
