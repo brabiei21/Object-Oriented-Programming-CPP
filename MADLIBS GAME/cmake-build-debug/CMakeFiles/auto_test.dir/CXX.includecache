@@ -1,0 +1,118 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../MadLibsController.hpp
+stdio.h
+-
+iostream
+-
+vector
+-
+MadlibWordProvider.hpp
+../MadlibWordProvider.hpp
+sstream
+-
+
+../MadlibAutoWordProvider.hpp
+MadlibWordProvider.hpp
+../MadlibWordProvider.hpp
+cstdlib
+-
+ctime
+-
+
+../MadlibWordProvider.hpp
+fstream
+-
+iostream
+-
+map
+-
+stdio.h
+-
+string
+-
+vector
+-
+algorithm
+-
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadLibsController.cpp
+MadLibsController.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadLibsController.hpp
+fstream
+-
+ctype.h
+-
+vector
+-
+algorithm
+-
+string
+-
+sstream
+-
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadLibsController.hpp
+stdio.h
+-
+iostream
+-
+vector
+-
+MadlibWordProvider.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibWordProvider.hpp
+sstream
+-
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibAutoWordProvider.cpp
+MadlibAutoWordProvider.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibAutoWordProvider.hpp
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibAutoWordProvider.hpp
+MadlibWordProvider.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibWordProvider.hpp
+cstdlib
+-
+ctime
+-
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibUserWordProvider.cpp
+MadlibUserWordProvider.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibUserWordProvider.hpp
+iostream
+-
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibUserWordProvider.hpp
+stdio.h
+-
+MadlibWordProvider.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibWordProvider.hpp
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibWordProvider.hpp
+fstream
+-
+iostream
+-
+map
+-
+stdio.h
+-
+string
+-
+vector
+-
+algorithm
+-
+
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/auto_test.cpp
+MadLibsController.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/MadLibsController.hpp
+MadlibAutoWordProvider.hpp
+/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/MadlibAutoWordProvider.hpp
+

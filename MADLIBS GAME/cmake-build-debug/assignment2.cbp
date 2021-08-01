@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="assignment2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="line_level_token_match">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/line_level_token_match.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 line_level_token_match"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="line_level_token_match/fast">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/line_level_token_match.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 line_level_token_match/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="controller_test">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/controller_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 controller_test"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="controller_test/fast">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/controller_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 controller_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_test_plural">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/auto_test_plural.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 auto_test_plural"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_test_plural/fast">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/auto_test_plural.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 auto_test_plural/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_test">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/auto_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 auto_test"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="auto_test/fast">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/auto_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 auto_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="user_test">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/user_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 user_test"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="user_test/fast">
+				<Option output="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/user_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 user_test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j12 -f &quot;/cygdrive/c/Users/Behrad\ Rabiei/CLionProjects/assignment2-brabiei21/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadLibsController.cpp">
+			<Option target="main"/>
+			<Option target="line_level_token_match"/>
+			<Option target="controller_test"/>
+			<Option target="auto_test_plural"/>
+			<Option target="auto_test"/>
+			<Option target="user_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadLibsController.hpp">
+			<Option target="main"/>
+			<Option target="line_level_token_match"/>
+			<Option target="controller_test"/>
+			<Option target="auto_test_plural"/>
+			<Option target="auto_test"/>
+			<Option target="user_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibAutoWordProvider.cpp">
+			<Option target="main"/>
+			<Option target="line_level_token_match"/>
+			<Option target="controller_test"/>
+			<Option target="auto_test_plural"/>
+			<Option target="auto_test"/>
+			<Option target="user_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibAutoWordProvider.hpp">
+			<Option target="main"/>
+			<Option target="line_level_token_match"/>
+			<Option target="controller_test"/>
+			<Option target="auto_test_plural"/>
+			<Option target="auto_test"/>
+			<Option target="user_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibUserWordProvider.cpp">
+			<Option target="main"/>
+			<Option target="line_level_token_match"/>
+			<Option target="controller_test"/>
+			<Option target="auto_test_plural"/>
+			<Option target="auto_test"/>
+			<Option target="user_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/MadlibUserWordProvider.hpp">
+			<Option target="main"/>
+			<Option target="line_level_token_match"/>
+			<Option target="controller_test"/>
+			<Option target="auto_test_plural"/>
+			<Option target="auto_test"/>
+			<Option target="user_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/auto_test.cpp">
+			<Option target="auto_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/auto_test_plural.cpp">
+			<Option target="auto_test_plural"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/controller_test.cpp">
+			<Option target="controller_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/line_level_token_match.cpp">
+			<Option target="line_level_token_match"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/tests/user_test.cpp">
+			<Option target="user_test"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Behrad Rabiei/CLionProjects/assignment2-brabiei21/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

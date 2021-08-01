@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Compile User Word Provider Test",
+      "setup": "wget https://github.com/vgiljaClasses/SP21_assignment2_ag_tests/archive/refs/heads/master.zip; unzip master.zip; mv -f SP21_assignment2_ag_tests-master/* ./",
+      "run": "g++ -std=c++11 user_test.cpp MadlibUserWordProvider.cpp MadLibsController.cpp -o user_test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Run User Word Provider Test",
+      "setup": "",
+      "run": "./user_test < input.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Compile Auto Word Provider",
+      "setup": "",
+      "run": "g++ -std=c++11 auto_test.cpp MadlibAutoWordProvider.cpp MadLibsController.cpp -o auto_test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Run Auto Word Provider Test",
+      "setup": "",
+      "run": "./auto_test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 30
+    },
+    {
+      "name": "Compile Auto Word Provider Test for Plural Nouns",
+      "setup": "",
+      "run": "g++ -std=c++11 auto_test_plural.cpp MadlibAutoWordProvider.cpp MadLibsController.cpp -o auto_test_plural",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Run Auto Word Provider Test for Plural Nouns",
+      "setup": "",
+      "run": "./auto_test_plural",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Compile Controller Test",
+      "setup": "",
+      "run": "g++ -std=c++11 controller_test.cpp MadLibsController.cpp -o controller_test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Run Controller Test",
+      "setup": "g++ -std=c++11 -Wno-deprecated line_level_token_match.cpp -o line_level_token_match; ./controller_test > controller_test_output.txt; cat controller_test_output.txt",
+      "run": "./line_level_token_match controller_test_output.txt controller_test_expected_output.txt",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 40
+    },
+    {
+      "name": "Compile Main",
+      "setup": "",
+      "run": "g++ -std=c++11 main.cpp MadlibAutoWordProvider.cpp MadlibUserWordProvider.cpp MadLibsController.cpp -o main",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Run Main",
+      "setup": "",
+      "run": "./main < input.txt",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}

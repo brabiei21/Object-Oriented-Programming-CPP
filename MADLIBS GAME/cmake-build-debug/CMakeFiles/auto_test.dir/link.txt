@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/auto_test.dir/tests/auto_test.cpp.o CMakeFiles/auto_test.dir/MadLibsController.cpp.o CMakeFiles/auto_test.dir/MadlibUserWordProvider.cpp.o CMakeFiles/auto_test.dir/MadlibAutoWordProvider.cpp.o -o auto_test.exe -Wl,--out-implib,libauto_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

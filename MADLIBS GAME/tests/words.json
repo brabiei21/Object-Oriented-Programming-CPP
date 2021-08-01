@@ -1,0 +1,137 @@
+[
+  {
+    "WORD": "aardvark",
+    "POS": "noun",
+    "CATEGORY": "animal"
+  },
+  {
+    "WORD": "absentmindedly",
+    "POS": "adverb",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "bangladesh",
+    "POS": "noun",
+    "CATEGORY": "place"
+  },
+  {
+    "WORD": "bank",
+    "POS": "noun",
+    "CATEGORY": "place"
+  },
+  {
+    "WORD": "banker",
+    "POS": "noun",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "bar",
+    "POS": "noun",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "barber",
+    "POS": "noun",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "bat",
+    "POS": "noun",
+    "CATEGORY": "animal"
+  },
+  {
+    "WORD": "be",
+    "POS": "verb",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "begin",
+    "POS": "verb",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "courteous",
+    "POS": "adjective",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "crazy",
+    "POS": "adjective",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "orange",
+    "POS": "noun",
+    "CATEGORY": "fruit"
+  },
+  {
+    "WORD": "blue",
+    "POS": "noun",
+    "CATEGORY": "color"
+  },
+  {
+    "WORD": "green",
+    "POS": "noun",
+    "CATEGORY": "color"
+  },
+  {
+    "WORD": "apple",
+    "POS": "noun",
+    "CATEGORY": "fruit"
+  },
+  {
+    "WORD": "purple",
+    "POS": "noun",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "quail",
+    "POS": "noun",
+    "CATEGORY": "animal"
+  },
+  {
+    "WORD": "rabbit",
+    "POS": "noun",
+    "CATEGORY": "animal"
+  },
+  {
+    "WORD": "red",
+    "POS": "noun",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "scarcely",
+    "POS": "adverb",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "scared",
+    "POS": "adjective",
+    "CATEGORY": ""
+  },
+  {
+    "WORD": "Curry",
+    "POS": "name",
+    "CATEGORY": "name"
+  },
+  {
+    "WORD": "Thompson",
+    "POS": "name",
+    "CATEGORY": "name"
+  },
+  {
+    "WORD": "eight",
+    "POS": "noun",
+    "CATEGORY": "number"
+  },
+  {
+    "WORD": "five",
+    "POS": "noun",
+    "CATEGORY": "number"
+  },
+  {
+    "WORD": "fourth",
+    "POS": "noun",
+    "CATEGORY": "number"
+  }
+]
