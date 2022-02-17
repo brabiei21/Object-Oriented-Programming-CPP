@@ -1,7 +1,4 @@
-//
-//  main.cpp
-//  assignment7
-//
+
 
 #include <iostream>
 #include <sstream>
