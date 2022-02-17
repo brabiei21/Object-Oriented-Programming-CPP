@@ -1,7 +1,4 @@
-//
-//  Card.cpp
-//  assignment7
-//
+
 #define SPADE_SYMBOL	"\u2660"
 #define CLUB_SYMBOL    "\u2663"
 #define HEART_SYMBOL   "\u2665"
