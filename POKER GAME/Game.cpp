@@ -1,7 +1,3 @@
-//
-//  Game.cpp
-//  assignment7
-//
 
 #include "Game.hpp"
 #include "Hand.hpp"
