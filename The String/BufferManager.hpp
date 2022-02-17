@@ -7,13 +7,10 @@
 #include <algorithm>
 #include <map>
 
-#define scale_factor 2  //eliminating magic numbers
+#define scale_factor 2  
 
 namespace ECE141
 {
-
-    //replace the contents of this file with
-    //your buffer-manager from assignment 2
 
     template <typename T, size_t defaultCapacity=32>
     class BufferManager : Testable
