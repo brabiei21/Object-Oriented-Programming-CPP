@@ -1,9 +1,5 @@
-//
-//  autotest.hpp
-//  PA3
-//
 //  Created by rick gessner on 1/22/22.
-//
+
 
 #ifndef autotest_h
 #define autotest_h
@@ -475,8 +471,6 @@ bool doSpeedTest(std::ostream& anOutput) {
     ECE141::Timer theTimer;
     
     auto theWords=getWords(2);
-    
-// UNCOMMENT HIS WHEN YOUR STRING IS WORKING...
 
     theTimer.start();
     ECE141::String temp("this is a block that gets reused");
