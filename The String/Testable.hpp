@@ -1,7 +1,4 @@
-//
-//  Testable.hpp
-//  Assignment3-RG
-//
+
 //  Created by rick gessner on 1/8/22.
 //
 
