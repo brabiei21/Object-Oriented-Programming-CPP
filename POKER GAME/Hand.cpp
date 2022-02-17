@@ -1,7 +1,3 @@
-//
-//  Hand.cpp
-//  assignment7
-//
 
 #include "Hand.hpp"
 #include <algorithm>
@@ -19,7 +15,7 @@ namespace ECE17 {
     }
     Hand& Hand::operator=(const Hand &aCards)
     {
-        //IMPLEMENT ME!
+        
         for(int i = 0; i < aCards.ourHand.size(); i++)
         {
             ourHand[i] = aCards.ourHand[i];
@@ -28,12 +24,12 @@ namespace ECE17 {
     }
     Hand::~Hand()
     {
-        //IMPLEMENT ME!
+        
     }
 
     bool Hand::operator>(const Hand& aHand) const
     {
-        //IMPLEMENT ME!
+        
         std::vector<Faces> ourVector;
         std::vector<Faces> theirVector;
         int s = 4;
@@ -67,7 +63,7 @@ namespace ECE17 {
 
     Hand& Hand::add(const Card& aCard)
     {
-        //IMPLEMENT ME!
+       
         if ( 5 <= ourHand.size())
             return *this;
 
@@ -81,7 +77,7 @@ namespace ECE17 {
     }
     bool Hand::discard(const Card &aCard)
     {
-        //IMPLEMENT ME!
+       
         for(int i =0; i <ourHand.size(); i++)
         {
             if(ourHand[i].getFace() == aCard.getFace() && ourHand[i].getSuit() == aCard.getSuit())
@@ -94,13 +90,12 @@ namespace ECE17 {
     }
     size_t Hand::count()
     {
-        //IMPLEMENT ME!
+       
         return ourHand.size();
     }
     //show deck on one line:  [4H, 3C, 10D, AC, AS]
     void Hand::show(std::ostream &anOutput) const
     {
-        //IMPLEMENT ME!
 
             anOutput << "["<< ourHand[0].GetFaceName()<<ourHand[0].GetSuitSymbol()<<", "
                            << ourHand[1].GetFaceName()<<ourHand[1].GetSuitSymbol()<<", "
@@ -114,7 +109,7 @@ namespace ECE17 {
 
     HandTypes Hand::determineRank() const
     {
-        //IMPLEMENT ME!
+        
         if(RoyalFlush())
             return HandTypes::royal_flush;
 
