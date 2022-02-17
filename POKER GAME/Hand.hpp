@@ -1,7 +1,3 @@
-//
-//  Hand.hpp
-//  assignment7
-//
 
 #ifndef Hand_hpp
 #define Hand_hpp
@@ -90,8 +86,6 @@ namespace ECE17 {
 
         std::vector <Card> ourHand;
     protected:
-
-        //STUDENT: What data members will I need?
 
         //Deck someDeck;
     };
