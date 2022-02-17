@@ -1,10 +1,8 @@
-//
-//  String.hpp
-//  Assignment3
-//
+
 //  Created by rick gessner on 1/29/20.
 //  Copyright © 2020 rick gessner. All rights reserved.
-//
+
+// Only frame was made by rick genssner, All implementation were done by Behrad Rabiei
 #ifndef String_hpp
 #define String_hpp
 
