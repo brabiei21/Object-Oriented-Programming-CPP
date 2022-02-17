@@ -1,7 +1,3 @@
-//
-//  Deck.hpp
-//  assignment7
-//
 
 #ifndef Deck_hpp
 #define Deck_hpp
@@ -18,7 +14,7 @@ namespace ECE17 {
 
     public:
 
-        //STUDENT: implement this class from assigment...
+       
 
         Deck();
         Deck(const Deck &aDeck);
@@ -33,7 +29,7 @@ namespace ECE17 {
         std::vector <Card>  deckofCards;
     protected:
 
-        //STUDENT: finish me...
+      
 
     };
 
