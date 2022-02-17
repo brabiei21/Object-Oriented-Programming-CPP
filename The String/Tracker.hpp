@@ -1,9 +1,5 @@
-//
-//  Tracker.hpp
-//  memtest
-//
 //  Created by rick gessner on 1/22/22.
-//
+
 
 #ifndef Tracker_h
 #define Tracker_h
@@ -14,7 +10,7 @@
 
 namespace fs = std::filesystem;
 
-#define _TRACKER_ON  //comment this out to disable tracker...
+#define _TRACKER_ON  
 
 #ifdef _TRACKER_ON
   #define GPS(aPtr) Tracker::instance().watch(aPtr, __LINE__, __FILE__)
