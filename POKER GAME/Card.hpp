@@ -1,8 +1,3 @@
-//
-//  Card.hpp
-//  assignment7
-//
-
 
 #ifndef Card_hpp
 #define Card_hpp
