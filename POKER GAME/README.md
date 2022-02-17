@@ -1,17 +1,14 @@
-# SP21-Assignment7
 
 
 ### Building a Five-Card Poker Game
 
 ## Introduction
 
-You've come a long way towards being able to program with objects in C++. Now it's time to put these techniques to work. In this assignment, you are going to build a working game of 5-card poker. The players in the game will be `Player` objects you build, that can respond to the rules of the game, and driven by the process defined in your `Game` object (described below). 
+I am going to build a working game of 5-card poker. The players in the game will be `Player` objects I build, that can respond to the rules of the game, and driven by the process defined in your `Game` object (described below). 
 
-The `Game` object drives the process of game-play.  During each round (hand), your `Player` class will analyze the cards it has received, and choose whether to fold, stand pat, or bet. This part of this exercise is really fun (and many students get very competitive!). 
+The `Game` object drives the process of game-play.  During each round (hand), your `Player` class will analyze the cards it has received, and choose whether to fold, stand pat, or bet. 
 
-Note: You're permitted to reuse your code from your earlier assignments (e.g. #1, #6), if that can save you some time.  **NOTE:** Don't just overwrite the files in this assignment with previous code. We've made some improvements and enhancements (game and round) that you'll want to take advantage of, so integrate your code into this new repository with care.
-
-This assignment is the second of two parts. In this part you'll actually get your game working. When your program runs, it creates a `Game` object and adds two `Player` objects. Then it initiates game-play (Game::run), which is respresented by a series of "Rounds". During each round, this basic process is exectuted:
+When the program runs, it creates a `Game` object and adds two `Player` objects. Then it initiates game-play (Game::run), which is respresented by a series of "Rounds". During each round, this basic process is exectuted:
 
 1. Determine which players have enough chips to enter the round (balance>=ante) (If only 1 player can proceed, game is over)
 2. Collect the ante from each viable player and store these chips in the "pot"
@@ -121,19 +118,19 @@ Player with highest ranking card in hand wins. If tied, compare next highest-car
 
 --- 
 
-## Your Deliverables for This Assignment
+## Deliverables 
 
 ### 1. Implement the Core Classes...
 
-In order to get your game to work, you'll need to implement 5 classes described below. 
+
 
 #### 1. The `Card` class
 
-The `Card` class represents a given card (suit, face) in a deck. As usual, there are 4 suits, with 13 faces in each, for a total of 52 cards.  You can reuse as much of the code from your `Card` class from previous assignments as you'd like. 
+The `Card` class represents a given card (suit, face) in a deck. As usual, there are 4 suits, with 13 faces in each, for a total of 52 cards.  
 
 It is essential that your `Card` class correctly represents each card from the deck, and, that it be able to "show" the card in the terminal. You can show them in a fancy way, just a simple strings, like "QD" or "Q♦" (queen diamonds). 
 
-The method declarations for the `Card` class are provided to you, and are shown below. You will implement these methods, and you're free to add any methods or data members to this class.
+
 
 ```
     
@@ -149,7 +146,7 @@ The method declarations for the `Card` class are provided to you, and are shown 
 
 #### 2. The `Deck` class
 
-The `Deck` class will initially hold 52 distinct (non-repeating) `Card` objects in an internal data structure. You're free to build your `Deck` class any way you like, but you must implement the methods listed below (along with the necessary OCF methods). Again, you can reuse `Deck` code from a previous assignment if you wish. You're welcome to add any additional methods or data members you like to the `Deck` class as well.
+The `Deck` class will initially hold 52 distinct (non-repeating) `Card` objects in an internal data structure. 
 
 ```cpp
     bool pop(Card &aCard); //remove card from top of deck (copy it to aCard); return TRUE if success
@@ -162,7 +159,7 @@ It's essential that your `shuffle` method works well, and that after calling thi
 
 #### 3. The `Hand` class
 
-A `Hand` will represent the 5 cards that each player will have during each round of the game. Generally speaking, your `Hand` class should have a data member that contains N `Card` objects (N is usually 5).  In addition to the OCF methods, you MUST also implement the following methods for the `Hand` class. You're free to add another methods or data you need to this class.
+A `Hand` will represent the 5 cards that each player will have during each round of the game. Generally speaking, your `Hand` class should have a data member that contains N `Card` objects (N is usually 5). 
 
 ```cpp
    Hand&       add(const Card& aCard); //append given card to your hand
@@ -178,13 +175,13 @@ A `Hand` will represent the 5 cards that each player will have during each round
     
 ```
 
-It's essential that you implement `determineRank()` correctly. Given a `Hand` object that contains 5 cards, this method will analyze the collection of cards to determine the "best-match" logical hand the cards represent. See "Hands you can achieve" (above). Your game will rely on this method working in order to choose a winning `Hand` from reach round. Again, you can use your implementation from the previous assignment.
+It's essential that you implement `determineRank()` correctly. Given a `Hand` object that contains 5 cards, this method will analyze the collection of cards to determine the "best-match" logical hand the cards represent. See "Hands you can achieve" (above). Your game will rely on this method working in order to choose a winning `Hand` from reach round. 
 
-It is also essential that you implement `bool Hand::operator>()` correctly. This method compares the rank of two `Hand` objects. If the ranks are different, the winner is the `Hand` with the highest ordinal value.  The the ranks are the same, then the winner is determine by analysis of the individual cards as outlined above (See "Hands you can achieve in Five-Card Poker").  For many students, this method presents one of the most interesting challenges. 
+It is also essential that you implement `bool Hand::operator>()` correctly. This method compares the rank of two `Hand` objects. If the ranks are different, the winner is the `Hand` with the highest ordinal value.  The the ranks are the same, then the winner is determine by analysis of the individual cards as outlined above (See "Hands you can achieve in Five-Card Poker").  
 
 #### 4. The `Player` class
 
-Your `Player` class will act like a virtual player, and respond to calls made by the `Game` object to iterate through rounds until a winner emerges (with all the money!). Your player will contain a `Hand` object, a name, and a balance (and you can add other data as necessary).  You are required to implement the existing methods (including necessary OCF methods), and may freely add your own.
+Your `Player` class will act like a virtual player, and respond to calls made by the `Game` object to iterate through rounds until a winner emerges (with all the money!). Your player will contain a `Hand` object, a name, and a balance.  
 
 ```cpp
   public:
@@ -209,12 +206,11 @@ Your `Player` class will act like a virtual player, and respond to calls made by
   };    
 ```
 
-`Player:drawCards` and `Player::discardUnwanted` are automatically called during each round. In `drawCards` you will retrieve cards from the given `Deck` to complete your hand. This happens when the round first begins, and later if the players chooses to discard cards to improve their hand.  In the `DiscardUnwanted` method, you have a chance to analyze your hand, and estimate the most likely "best" hand you can achieve. Then, drop cards that aren't helpful to you, in hopes that when you draw new cards, you can get a winning hand.  This process may require that you write your own custom methods that help you analyze your and try to set a goal (target hand). 
-
+`Player:drawCards` and `Player::discardUnwanted` are automatically called during each round. In `drawCards` you will retrieve cards from the given `Deck` to complete your hand. This happens when the round first begins, and later if the players chooses to discard cards to improve their hand.  In the `DiscardUnwanted` method, you have a chance to analyze your hand, and estimate the most likely "best" hand you can achieve. Then, drop cards that aren't helpful to you, in hopes that when you draw new cards, you can get a winning hand.
 
 #### 5. The `Round` class
 
-The `Round` class is a "process" object that drives the game forward.  The `Round` class is managed for you by the `Game` class , the `Game::run` method.  The `Round` class defines the following methods, that you must fully implement, but you are free to add other methods/data members as well:
+The `Round` class is a "process" object that drives the game forward.  The `Round` class is managed for you by the `Game` class , the `Game::run` method.  The `Round` class defines the following methods:
 
 ```cpp
     Round& dealCards(Deck &aDeck);
@@ -229,27 +225,27 @@ The `Round` class is a "process" object that drives the game forward.  The `Roun
 
 ##### WillRun 
 
-In this method, iterate the given list of players and ensure each has enough chips (balance) to pay the ante. For each player that can pay the ante, subtract the ante from their balance, and add the player to the list of players in the round (the `Round` class has its own list of players). The total chips from each ante paid is added to the internal "Round::pot" value.  We have generously implemented this method for you! :)
+In this method, iterate the given list of players and ensure each has enough chips (balance) to pay the ante. For each player that can pay the ante, subtract the ante from their balance, and add the player to the list of players in the round (the `Round` class has its own list of players). The total chips from each ante paid is added to the internal "Round::pot" value.  
 
 ##### DidRun 
 
-In this method,  we increment the cost of the ante for each subsequent round.  We've implemented this method for you.
+In this method,  we increment the cost of the ante for each subsequent round.  
 
 ##### Run 
 
-This method drives each round through the various states: `dealing cards`, `placing_bets`, determining the winner and awarding the pot (`payWinner`). We've implemented this method for you.
+This method drives each round through the various states: `dealing cards`, `placing_bets`, determining the winner and awarding the pot (`payWinner`). 
 
 ##### Deal Cards
 
-In this method,  you have to make sure each player starts with an empty hand, and then draws the appropriate number of cards. You must write this method.
+In this method,  you have to make sure each player starts with an empty hand, and then draws the appropriate number of cards. 
 
 ##### Draw Cards
 
-In this method,  you ask each player to `discardUnwanted` cards, then draw new replacement cards.  You must write this method.
+In this method,  you ask each player to `discardUnwanted` cards, then draw new replacement cards.  
 
 ##### Place Bets 
 
-In this method (you implement),  we get each player to commit to folding, or to place a bet. First, ask the player whether they are folding (`isFolding`). If they are not, then request the level of the bet they want to make `placeBet(aMinBet)`. The player must respond with a bet >= aMinBit; otherwise they forfeit the game.  Reduce the player balance to cover the bet by calling `setBalance`, and increment the internal `Round.pot` value by a corresponding amount.  
+In this method,  we get each player to commit to folding, or to place a bet. First, ask the player whether they are folding (`isFolding`). If they are not, then request the level of the bet they want to make `placeBet(aMinBet)`. The player must respond with a bet >= aMinBit; otherwise they forfeit the game.  Reduce the player balance to cover the bet by calling `setBalance`, and increment the internal `Round.pot` value by a corresponding amount.  
 
 When this method is done, return the number of players who successfully made a bet. The round ends if only 1 player can place a bet.
 
@@ -262,15 +258,7 @@ For more informmation about how to determine a winner, review the section (above
 Once a winner has been determined, award the pot to the winner by incrementing that player's balance by a value equal to the amount in the pot.
 
 
-## Grading
 
-The grading for this assignment follows this rubric:
-
-1. Compiles (33pts) 
-2. Effective shuffling of deck (33pts)
-3. Game play (34pts) : NOTE: Our autograder test for game play is very simple, the hidden tests will test this functionality more deeply!!
-
-Good luck, and good gaming!
 
 
 
