@@ -1,8 +1,3 @@
-//
-//  Deck.cpp
-//  Assignment7
-//
-
 #include "Deck.hpp"
 
 #include <algorithm>
@@ -13,11 +8,11 @@
  
 namespace ECE17 {
 
-    //STUDENT: implement deck here...
+    
 
     Deck::Deck()
     {
-        //implement me!
+        
 
         Faces aFace;
         Suits aSuit;
@@ -37,7 +32,7 @@ namespace ECE17 {
 
     Deck::Deck(const Deck &aDeck)
     {
-        //implement me!
+       
 
         for(int i = 0; i <52; i++)
         {
@@ -48,12 +43,12 @@ namespace ECE17 {
 
     Deck::~Deck()
     {
-        //implement me!
+        
     }
 
     Deck& Deck::operator=(const Deck &aDeck)
     {
-        //implement me!
+       
 
         for(int i = 0; i <52; i++)
         {
@@ -114,7 +109,7 @@ namespace ECE17 {
 
     bool Deck::isEmpty() const
     {
-        //IMPLEMENT ME!
+        
         if(deckofCards.empty())
             return true;
         return false;
