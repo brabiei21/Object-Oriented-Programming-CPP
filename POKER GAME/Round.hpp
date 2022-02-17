@@ -1,7 +1,3 @@
-//
-//  Round.hpp
-//  assignment7
-//
 
 #ifndef Round_h
 #define Round_h
@@ -26,7 +22,7 @@ namespace ECE17 {
     Round& drawCards(Deck &aDeck)
     {
         int numCards;
-      //STUDENT IMPLEMENT
+      
       aDeck.shuffle();
       for(int i = 0; i < players.size(); i++)
       {
@@ -39,7 +35,7 @@ namespace ECE17 {
     
     Round& dealCards(Deck &aDeck)
     {
-      //STUDENT IMPLEMENT
+      
       aDeck.shuffle();
       Card tempCard;
       for(int i = 0; i < players.size(); i++)
