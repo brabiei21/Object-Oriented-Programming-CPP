@@ -1,7 +1,3 @@
-//
-//  AutoPlayer.cpp
-//  assignment7
-//
 
 #include "Player.hpp"
 
@@ -38,7 +34,7 @@ namespace ECE17 {
 
   float Player::placeBet(float aMinBet)
   {
-      //STUDENT: IMPLEMENT ME!
+      
       float amount;
       if(hand.determineRank() > HandTypes::full_house && balance >= aMinBet)
       {   amount = balance;
@@ -60,7 +56,7 @@ namespace ECE17 {
 
   void  Player::drawCards(Deck &aDeck, size_t aMaxCount)
   {
-    //STUDENT: IMPLEMENT ME!
+    
     Card temp;
     for(int i = 0; i < aMaxCount; i++)
     {
@@ -73,7 +69,7 @@ namespace ECE17 {
 
   size_t Player::discardUnwanted()
   {
-    //STUDENT: IMPLEMENT ME!
+    
     if(hand.determineRank() == HandTypes::high_card)
     {
         for (int i = 0; i < hand.count(); i++)
