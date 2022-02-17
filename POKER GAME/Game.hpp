@@ -1,7 +1,3 @@
-//
-//  Game.hpp
-//  assignment7
-//
 
 #ifndef Game_hpp
 #define Game_hpp
@@ -14,7 +10,7 @@ namespace ECE17 {
       
   using Players = std::vector<Player*>;
 
-  //student -- declare the Game class here...
+  
   class Game {
   public:
             Game(size_t aCardCount=5, float aMinimumBet=5.0);
