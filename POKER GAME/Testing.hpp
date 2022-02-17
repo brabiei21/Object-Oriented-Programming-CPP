@@ -1,7 +1,3 @@
-//
-//  Testing.hpp
-//  assignment7
-//
 
 #ifndef Testing_h
 #define Testing_h
