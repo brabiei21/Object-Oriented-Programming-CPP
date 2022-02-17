@@ -1,10 +1,6 @@
-//
-//  AutoPlayer.hpp
-//  assignment7
-//
 //  Created by rick gessner on 11/23/19.
 //  Copyright © 2019 rick gessner. All rights reserved.
-//
+
 
 #ifndef Player_hpp
 #define Player_hpp
