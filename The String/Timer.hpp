@@ -1,9 +1,7 @@
-//
-//  Timer.hpp
-//
+
 //  Created by rick gessner on 5/25/19.
 //  Copyright © 2019 rick gessner. All rights reserved.
-//
+
 
 #ifndef Timer_h
 #define Timer_h
